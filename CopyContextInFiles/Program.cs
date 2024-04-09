@@ -11,6 +11,7 @@
             
             //считывание в цикле содержимого файла (пока не пользователь не введет пустую строку)
             string tempPath;
+            
             while((tempPath = Console.ReadLine())!="")
             {
                 WriteToFile(File.ReadAllText(tempPath)); //вызоы метода для записи в файл
