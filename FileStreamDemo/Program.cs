@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+            // запись строки "hello" в файл, чтение файла и вывод содержимого на консоль
+            
             using (FileStream fs = new FileStream(@"D:\test.txt", 
                 FileMode.OpenOrCreate, FileAccess.Write))
             {
